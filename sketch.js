@@ -47,6 +47,7 @@ function draw() {
   rect(670, 540, 180, 190);
 
   packageBody.display();
+  lan.display();
 
   imageMode(CENTER);
 	 image(img, 670, 540, 200, 210);
@@ -55,8 +56,6 @@ function draw() {
   fill ("yellow");
   rect(ground.position.x, ground.position.y, width, 10);
   pop ();
-
-  drawSprites();
  
 }
 
